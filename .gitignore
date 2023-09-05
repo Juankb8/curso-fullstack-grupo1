@@ -1,22 +1,22 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-/test/node_modules
-/test/.pnp
-/test/.pnp.js
+/reactjs-app/node_modules
+/reactjs-app/.pnp
+/reactjs-app/.pnp.js
 
-# testing
-/test/coverage
+# reactjs-apping
+/reactjs-app/coverage
 
 # production
-/test/build
+/reactjs-app/build
 
 # misc
-/test/.DS_Store
-/test/.env.local
-/test/.env.development.local
-/test/.env.test.local
-/test/.env.production.local
+/reactjs-app/.DS_Store
+/reactjs-app/.env.local
+/reactjs-app/.env.development.local
+/reactjs-app/.env.reactjs-app.local
+/reactjs-app/.env.production.local
 
 npm-debug.log*
 yarn-debug.log*
