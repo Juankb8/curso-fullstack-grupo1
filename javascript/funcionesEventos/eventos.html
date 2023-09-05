@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+    <button onclick="alert(factorial(12));">Calcular</button>
+    <p id="DATA">Haz clic en este elemento.</p>
+    <a href="https://guide.freecodecamp.org" onclick="miAlerta()">Guías</a>
+
+    <script src="funciones.js"></script> 
+    <script>
+        let p = document.getElementById("DATA");
+        p.onclick = showAlert;
+
+        function showAlert() {
+            alert("Evento onclick ejecutado!");
+        }
+
+        function miAlerta() {
+            event.preventDefault();
+            alert("Se ah dado clic al enlace pero el sitio no ah sido abierto");
+        }
+        /*
+         Llamar a preventDefault en cualquier momento durante la ejecución, cancela el evento, 
+         lo que significa que cualquier acción por defecto que deba producirse como resultado 
+         de este evento, no ocurrirá.
+        */
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+
+<body>
+  
+        <h2>HTML Forms</h2>
+        <form action="https://www.w3schools.com/action_page.php?">
+
+            <label for="fname">Nombre:</label>
+            <input type="text" id="fname" name="fname" value="John"><br>
+
+            <label for="lname">Apellido:</label>
+            <input required type="text" id="lname" name="lname" value="Doe"><br>
+
+            <label for="lage">Edad:</label>
+            <input type="number" id="lage" name="lage" value="0"><br><br>
+
+            <label for="lskill">Skills:</label>
+            
+            <select multiple id="lskill" name="lskill">
+                <option value="1">Principiante</option>
+                <option value="2" selected>Normal</option>
+                <option value="3">Experto</option>
+            </select><br><br>
+
+            <label for="ldate">fecha nacimiento:</label>
+            <input type="date" id="ldate" name="ldate"><br><br>
+
+            <input type="submit" value="Enviar">
+        </form>
+        <p>Si hacemos click, invocamos al servidor para que procese el formulario</p>
+    
+</body>
+
+</html>
