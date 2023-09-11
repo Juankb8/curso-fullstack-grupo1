@@ -5,12 +5,22 @@ import './App.css';
 import reportWebVitals from './reportWebVitals';
 import PageFeeds from './pages/PageFeeds';
 import Footer
- from './components/Footer';
+  from './components/Footer';
+import AdivinaComponent from './examples/AdivinaComponent';
+import MutableComponent from './examples/MutableComponent';
+import HookExample from './examples/HookExample';
+
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-     <PageFeeds></PageFeeds>
-     <Footer></Footer>
+    <AdivinaComponent></AdivinaComponent>
+    { /*
+      <AdivinaComponent></AdivinaComponent>
+      <MutableComponent></MutableComponent>
+      <HookExample></HookExample>
+      <Footer></Footer>
+     */}
   </React.StrictMode>
 );
 

@@ -1,4 +1,5 @@
 import React from 'react';
+import AdivinaComponent from '../examples/AdivinaComponent';
 
 const Header = () => {
     return (
