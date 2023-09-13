@@ -9,13 +9,17 @@ import Footer
 import AdivinaComponent from './examples/AdivinaComponent';
 import MutableComponent from './examples/MutableComponent';
 import HookExample from './examples/HookExample';
+import { ClassEffectComponentOld } from './examples/ClassEffectComponentOld';
+import { EffectComponent } from './examples/EffectComponent';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <AdivinaComponent></AdivinaComponent>
+    <EffectComponent/>
     { /*
+    <ClassEffectComponentOld/>
+    <AdivinaComponent></AdivinaComponent>
       <AdivinaComponent></AdivinaComponent>
       <MutableComponent></MutableComponent>
       <HookExample></HookExample>
