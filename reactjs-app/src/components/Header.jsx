@@ -1,10 +1,9 @@
 import React from 'react';
-import AdivinaComponent from '../examples/AdivinaComponent';
 
 const Header = () => {
     return (
         <div>
-            
+            <h2>ENCABEZADO</h2>
         </div>
     );
 };
