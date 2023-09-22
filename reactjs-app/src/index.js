@@ -11,11 +11,12 @@ import MutableComponent from './examples/MutableComponent';
 import HookExample from './examples/HookExample';
 import { ClassEffectComponentOld } from './examples/ClassEffectComponentOld';
 import { EffectComponent } from './examples/EffectComponent';
-
+import {ComponenteMatias} from './components/ComponenteMatias'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <ComponenteMatias></ComponenteMatias>
     <EffectComponent/>
     { /*
     <ClassEffectComponentOld/>
