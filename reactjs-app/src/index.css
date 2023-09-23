@@ -8,10 +8,104 @@ body {
 }
 
 .Footer {
-  background-color: aqua;
+  background-color: rgba(6, 7, 7, 0.267);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Componente Funcion */
+
+.compFuncion {
+        border-radius:20px;
+        border: 1px solid white;
+        width:200px;
+        text-align: center;
+        box-shadow:1px 1px 10px 1px green; 
+        margin: auto;
+        background-color:rgba(6, 7, 7, 0.867)
+}
+
+.botonCalcular {
+  margin:10px;
+  outline: none;
+  border: 1px solid green;
+  box-shadow: 1px 1px 5px 1px white;
+  background-color: rgb(14, 13, 13);
+  color:white;
+  border-radius: 10px;
+  width: 100px;
+  height: 30px;
+
+}
+
+.botonCalcular:hover {
+  background-color: rgba(0, 0, 0, 0.442);
+}
+.botonCalcular:active{
+  color: rgba(230, 220, 220, 0.857)
+}
+
+.divPrincipal{
+  background-image: url('https://as1.ftcdn.net/v2/jpg/05/19/17/48/1000_F_519174880_ia06VDcO7V4LXGkIoq7Z4osLzTPdSoL8.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    color:white;
+    padding:5px;
+    
+  }
+
+  .divMenu {
+    text-align: center;
+    width: 400px;
+    padding: 10px;
+    
+  }
+
+.inputPF {
+  text-align: center;
+  background-color: black;
+  border-bottom: 2px solid rgb(21, 254, 40);
+  outline: none;
+  color:white;
+  font-weight: bold;
+  width: 150px;
+  
+}
+/* fin componente función */
+
+/* navBar */
+
+.botonLink {
+  margin:10px;
+  font-size: 16px;
+  text-decoration: none;
+  box-shadow: 0px 0px 5px 0px white;
+  border-radius: 4px;
+  padding: 2px;
+  background-color: rgb(230, 250, 255);
+  user-select: none;
+}
+
+.botonLink:hover {
+ 
+  box-shadow: 0px 0px 5px 1px black;
+}
+
+.botonLink:visited{
+  color: black;
+}
+
+.NavBar {
+  background: linear-gradient(to left, rgb(226, 200, 200), rgba(146, 226, 234, 0.609));
+  color: black;
+  height: 30px;
+  text-align: center;
+  border-bottom: 1px solid black;
+  padding: 10px;
+  
+}
+
+/* Fin navBar */
