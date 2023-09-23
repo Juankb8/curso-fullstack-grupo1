@@ -25,7 +25,7 @@ function AdivinaComponent() {
                     <hr />
                     <h3>Usted eligió el {numero}</h3>
                     <h3>Salió el número: {sorteo}</h3>
-                    <h3>{sorteo == numero ? "Ha Ganado!" : "Siga participando"}</h3>
+                    <h3>{sorteo === numero ? "Ha Ganado!" : "Siga participando"}</h3>
                     <br />
                     <button onClick={() => {
                         setResult(false)

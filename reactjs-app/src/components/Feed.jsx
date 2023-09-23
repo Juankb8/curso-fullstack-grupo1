@@ -8,7 +8,7 @@ function Feed(props) {
 
     return (
         <div style={style.feed}>
-            <img src={props.img} height="200"></img>
+            <img src={props.img} height="200" alt='feed'></img>
             <h3 style={style.title}>{props.title}</h3>
             <p style={style.detail}>{props.detail}</p>
             <Colors show={showAlert} color={props.color}></Colors>

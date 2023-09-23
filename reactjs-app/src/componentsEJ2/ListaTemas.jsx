@@ -57,7 +57,7 @@ export const ListaTemas = () => {
     {(temas.length>0) ?(<>
         <h3>Tu lista de temas favoritos:</h3>
         <ul>
-        
+    
             {temas.map((cancion => <li style={{fontSize:'15px'}} key={cancion.id}>{cancion.tema} - {cancion.artista}</li>))}
         
         </ul>

@@ -3,11 +3,11 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import './App.css';
 import reportWebVitals from './reportWebVitals';
-import PageFeeds from './pages/PageFeeds';
-import Footer from './components/Footer';
-import AdivinaComponent from './examples/AdivinaComponent';
-import MutableComponent from './examples/MutableComponent';
-import HookExample from './examples/HookExample';
+// import PageFeeds from './pages/PageFeeds';
+// import Footer from './components/Footer';
+// import AdivinaComponent from './examples/AdivinaComponent';
+// import MutableComponent from './examples/MutableComponent';
+// import HookExample from './examples/HookExample';
 import { Ejercicio2 } from './pages/Ejercicio2';
 import { BrowserRouter } from 'react-router-dom';
 

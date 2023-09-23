@@ -18,7 +18,7 @@ export const Ejercicio2 = () => {
    <Route path="/compsound" element={<CompSound   sound="https://www.w3schools.com/html/horse.mp3"/>}> </Route>
    <Route path="/compvideo" element={<CompVideo  video='https://www.w3schools.com/html/mov_bbb.mp4'  />}> </Route>
    <Route path="/complistatemas" element={<ListaTemas   />}> </Route>
-  
+
   </Routes>
   </>
   )
