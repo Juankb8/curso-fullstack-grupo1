@@ -82,30 +82,72 @@ code {
   margin:10px;
   font-size: 16px;
   text-decoration: none;
-  box-shadow: 0px 0px 5px 0px white;
   border-radius: 4px;
-  padding: 2px;
-  background-color: rgb(230, 250, 255);
+  padding: 10px;
   user-select: none;
+  color:white;
 }
 
 .botonLink:hover {
- 
-  box-shadow: 0px 0px 5px 1px black;
+  box-shadow: 0px 0px 6px 1px white;
 }
 
 .botonLink:visited{
-  color: black;
+  color: white;
 }
 
 .NavBar {
-  background: linear-gradient(to left, rgb(226, 200, 200), rgba(146, 226, 234, 0.609));
   color: black;
-  height: 30px;
+  height: 40px;
   text-align: center;
-  border-bottom: 1px solid black;
-  padding: 10px;
+  padding: 15px;
+  display: flex;
+  background-color: black;
+  color:white;
+  align-items: center;
   
 }
 
 /* Fin navBar */
+
+
+/* Componente lista temas */
+
+.listaTemas {
+ background: linear-gradient(to right, rgba(37, 181, 37, 0.99), rgba(2, 18, 2, 0.834));
+ color: black;
+ padding:20px;
+}
+
+.buttonListaTemas {
+  margin: 15px 1px 1px 30px;
+  padding: 8px;
+  outline: none;
+  border: none;
+  background:rgba(10, 245, 10, 0);
+  border: 1px solid black;
+  border-radius: 5px;
+  color:black;
+  font-family:  'Arial Narrow Bold', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.buttonListaTemas:hover {
+  box-shadow: 1px 1px 6px 1px black;
+}
+
+.buttonListaTemas:active {
+  background:rgba(41, 151, 41, 0.812);
+  box-shadow: 1px 1px 6px 5px black;
+}
+
+.inputTemas {
+  border-radius: 5px;
+  outline: none;
+  background-color: black;
+  color:white;
+  height: 20px;
+  font-weight: 500;
+  
+}

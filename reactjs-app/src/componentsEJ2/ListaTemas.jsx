@@ -42,15 +42,15 @@ export const ListaTemas = () => {
 
 
   return (<>
-  <div style={{backgroundColor:'grey',color:'black', padding:'20px'}}>
+  <div className="listaTemas">
         <h1>Puedes armar tu lista favorita de canciones:</h1>
 
         <form>
-            Canción: <br /><input type='text' value={nombreTema} onChange={handleInputChange}/>
+            Canción: <br /><input className="inputTemas" type='text' value={nombreTema} onChange={handleInputChange}/>
             <br />
-            Artista: <br /><input type="text" value={nombreArtista} onChange={handleInputChange2}/>
+            Artista: <br /><input className="inputTemas" type="text" value={nombreArtista} onChange={handleInputChange2}/>
             <br />
-            <button style={{marginTop:'15px'}} type="submit" onClick={onSubmit}>Agregar Tema a la lista</button>
+            <button className="buttonListaTemas" type="submit" onClick={onSubmit}>Agregar Tema</button>
         </form>
 
     <br />

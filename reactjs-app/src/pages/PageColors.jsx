@@ -1,4 +1,3 @@
-
 import Colors from "../components/Colors";
 function PagesColors() {
     return (
