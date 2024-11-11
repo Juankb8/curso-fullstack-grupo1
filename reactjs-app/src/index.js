@@ -1,23 +1,21 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import './App.css';
-import reportWebVitals from './reportWebVitals';
-import PageFeeds from './pages/PageFeeds';
-import Footer
-  from './components/Footer';
-import AdivinaComponent from './examples/AdivinaComponent';
-import MutableComponent from './examples/MutableComponent';
-import HookExample from './examples/HookExample';
-import { ClassEffectComponentOld } from './examples/ClassEffectComponentOld';
-import { EffectComponent } from './examples/EffectComponent';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import "./App.css";
+import reportWebVitals from "./reportWebVitals";
+import PageFeeds from "./pages/PageFeeds";
+import Footer from "./components/Footer";
+import AdivinaComponent from "./examples/AdivinaComponent";
+import MutableComponent from "./examples/MutableComponent";
+import HookExample from "./examples/HookExample";
+import { ClassEffectComponentOld } from "./examples/ClassEffectComponentOld";
+import { EffectComponent } from "./examples/EffectComponent";
 
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <EffectComponent/>
-    { /*
+    <AdivinaComponent />
+    {/*
     <ClassEffectComponentOld/>
     <AdivinaComponent></AdivinaComponent>
       <AdivinaComponent></AdivinaComponent>
